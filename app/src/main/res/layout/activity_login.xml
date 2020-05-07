@@ -9,7 +9,7 @@
     tools:context=".login">
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/footer"
         android:layout_width="438dp"
         android:layout_height="257dp"
         android:layout_marginTop="492dp"
@@ -18,11 +18,11 @@
         app:srcCompat="@drawable/vector_abu_2" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/logo"
         android:layout_width="176dp"
         android:layout_height="94dp"
         android:layout_marginBottom="324dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,30 +31,30 @@
         app:srcCompat="@drawable/logo_coba_1" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/emailImage"
         android:layout_width="327dp"
-        android:layout_height="85dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@id/passwordImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintVertical_bias="0.059"
         app:srcCompat="@drawable/teks_input" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/passwordImage"
         android:layout_width="327dp"
-        android:layout_height="64dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent"
-        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailImage"
         app:layout_constraintVertical_bias="0.53"
         app:srcCompat="@drawable/teks_input" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/footerText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
@@ -76,12 +76,12 @@
         android:fontFamily="@font/montserrat"
         android:text="Baru gabung?               yuk!"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:layout_constraintVertical_bias="0.276" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
 
     <TextView
         android:id="@+id/daftar"
@@ -96,53 +96,54 @@
         app:layout_constraintHorizontal_bias="0.602"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719" />
+        app:layout_constraintVertical_bias="0.769" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/buttonLogin"
         android:layout_width="105dp"
         android:layout_height="45dp"
         android:background="@drawable/masuk"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailField"
         android:layout_width="297dp"
-        android:layout_height="67dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="@id/emailImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.324">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="299dp"
-            android:layout_height="65dp"
+            android:layout_height="67dp"
             android:background="@null"
             android:hint="Email" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
+        android:id="@+id/passwordField"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/passwordImage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="63dp"
+            android:layout_height="65dp"
             android:background="@null"
             android:hint="Password"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
