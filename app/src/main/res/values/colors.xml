@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#181818</color>
     <color name="colorAccent">#0B655C</color>
     <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorNavText">#FFFFFF</color>
 </resources>
