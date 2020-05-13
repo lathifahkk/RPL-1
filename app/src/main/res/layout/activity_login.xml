@@ -15,7 +15,8 @@
         android:layout_marginTop="492dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vector_abu_2" />
+        app:srcCompat="@drawable/vector_abu_2"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/logo"
@@ -46,7 +47,7 @@
         android:id="@+id/passwordImage"
         android:layout_width="327dp"
         android:layout_height="50dp"
-        app:layout_constraintBottom_toTopOf="@id/buttonLogin"
+        app:layout_constraintBottom_toTopOf="@id/btnLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/emailImage"
@@ -99,7 +100,7 @@
         app:layout_constraintVertical_bias="0.769" />
 
     <ImageButton
-        android:id="@+id/buttonLogin"
+        android:id="@+id/btnLogin"
         android:layout_width="105dp"
         android:layout_height="45dp"
         android:background="@drawable/masuk"
@@ -121,6 +122,7 @@
         app:layout_constraintVertical_bias="0.324">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/elMail"
             android:layout_width="299dp"
             android:layout_height="67dp"
             android:background="@null"
@@ -139,6 +141,7 @@
         app:passwordToggleEnabled="true">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/elPass"
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:background="@null"

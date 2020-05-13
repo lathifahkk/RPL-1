@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "222062798472",
+    "firebase_url": "https://e-lis-df08f.firebaseio.com",
+    "project_id": "e-lis-df08f",
+    "storage_bucket": "e-lis-df08f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222062798472:android:92f46ccd467991db33e13d",
+        "android_client_info": {
+          "package_name": "com.example.elis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222062798472-o7r0uft7v91blvk38231calkch83bfi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE0DfxuVmYVsJpx-Lc0xsn76XurtcWWL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222062798472-o7r0uft7v91blvk38231calkch83bfi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
