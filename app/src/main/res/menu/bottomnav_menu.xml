@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="@string/home"
+        android:icon="@drawable/home_icon"/>
+
+    <item
+        android:id="@+id/info_menu"
+        android:title="@string/info"
+        android:icon="@drawable/info_icon"/>
+
+    <item
+        android:id="@+id/kelola_menu"
+        android:title="@string/kelola"
+        android:icon="@drawable/kelola_icon"/>
+    <item
+        android:id="@+id/akun_menu"
+        android:title="@string/akun"
+        android:icon="@drawable/acc_icon"/>
+
+</menu>
