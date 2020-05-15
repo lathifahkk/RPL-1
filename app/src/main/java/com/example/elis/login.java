@@ -44,10 +44,10 @@ public class login extends AppCompatActivity {
             }
         });
 
-       /* Login.setOnClickListener(new View.OnClickListener() {
+       Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //validate(Email.getEditText().getText().toString(),Password.getEditText().getText().toString());
+                validate(Email.getEditText().getText().toString(),Password.getEditText().getText().toString());
                 String email = Email.getEditText().getText().toString();
                 String pass = Password.getEditText().getText().toString();
 
@@ -91,10 +91,10 @@ public class login extends AppCompatActivity {
                 });
 
             }
-        }); */
+        });
     }
 
-   /* private void validate(String userName, String userPassword){
+private void validate(String userName, String userPassword){
 
         if((userName.equals("admin")) && (userPassword.equals("1234"))){
 
@@ -120,5 +120,5 @@ public class login extends AppCompatActivity {
             Toast.makeText(getApplicationContext(),
                     "Email atau Password Salah",Toast.LENGTH_SHORT).show();
         }
-    } */
+    }
 }
