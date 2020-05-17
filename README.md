@@ -1,6 +1,6 @@
 # LAPORAN PROJECT RPL
 
-## ELIS 
+## ELis
 
 ### Kolompok 5
 
@@ -32,7 +32,7 @@ Dengan spesifikasi processor
 
 ### Deskripsi Perangkat Lunak
 
-Elis adalah suatu aplikasi yang bertujuan untuk dapat membantu penggunanya dalam mengelola penggunaan listrik pada rumahnya, sehingga penggunaan listrik lebih terkonrol dan dapat mengurangi pemborosan listrik.
+ELis adalah suatu aplikasi yang bertujuan untuk dapat membantu penggunanya dalam mengelola penggunaan listrik pada rumahnya, sehingga penggunaan listrik lebih terkonrol dan dapat mengurangi pemborosan listrik.
 
 Pada aplikasi ELIS ini terdapat beberapa fitur, yaitu
 * Fitur Kelola Alat Listrik : fitur ini memungkinkan penggunanya untuk mematikan aliran listrik ke lampu dan juga stopkontak secara otomatis ataupun secara manual menggunakan aplikasi ini.
@@ -99,6 +99,7 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang mem
 
 ### Gantt Chart
 ![team gantt](https://user-images.githubusercontent.com/60084059/82161818-4a902d80-98ca-11ea-8df5-2c4ca011acf1.png)
+
 
 ### ERD
 ![LKP 4  RPL -ERD](https://user-images.githubusercontent.com/60084059/82159862-9a1b2d00-98bb-11ea-8ae9-43cb791b0828.png)
