@@ -13,11 +13,12 @@ Anggota :
 ### Latar Belakang 
 Pertumbuhan populasi manusia meningkat secara tajam pada abad sekarang ini. Tercatat pada sensus penduduk tahun 2015 sebesar 238.518.000 jiwa dan diproyeksikan akan meningkat pada tahun 2020 menjadi sebanyak 271.066.000 jiwa. Kebutuhan sumberdaya listrik khusunya di Pulau Jawa sebagian besar berasal dari pembangkit listrik bertenaga bahan bakar fosil. Pembangkit listrik ini menyebabkan polusi udara dan kerusakan lingkungan karena bahan bakarnya bisa berasal dari pertambangan batu bara. 
 
+Hampir segala kegiatan kehidupan dan bidang memanfaatkan energi listrik. Hal ini membuat kebutuhan listrik semakin meningkat. Sehingga memerlukan bahan bakar yang semakin banyak untuk membangkitkan listrik, sementara bahan bakar pembangkit listrik semakin menipis dan juga menyebabkan polusi lingkungan. Banyak kerugian yang timbul dari perilaku pemborosan listrik. Hal kecil seperti tidak mematikan lampu dan peralatan elektronik saat sudah tidak digunakan turut menjadi salah satu perilaku pemborosan energi listrik.
 
 
 ### Tujuan
 
-Tujuan dibuatnya aplikasi ini untuk mengurangi perilaku pemborosan listrik, sehingga dapat menghemat penggunaan sumber daya listrik dimulai dari diri sendiri dan rumah tangga. 
+Tujuan dibuatnya aplikasi ini untuk mengurangi perilaku pemborosan listrik serta mengontrol penggunaan listrik, sehingga dapat menghemat penggunaan sumber daya listrik dimulai dari diri sendiri dan rumah tangga. 
 
 
 ### Ruang Lingkup
