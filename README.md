@@ -49,10 +49,11 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang mem
 * Sebagai pengguna, saya ingin dapat memutus atau menghubungkan aliran listrik pada peralatan listrik tanpa perlu mencabut kabel peralatan listrik dari saklar jika tidak menggunakan alat tersebut.
 * Sebagai pengguna, saya ingin dapat mengetahui pemakaian listrik rumah saya tanpa perlu melihat di meteran listrik.
 * Sebagai pengguna saya ingin mendapatkan informasi pemadaman listrik sehingga saya dapat tahu ketika listrik di rumah mati disebabkan konsleting atau sedang terjadi pemadaman listrik dari pihak PLN.
-* Sebagai Petugas PLN, saya ingin memberi informasi pemadaman listrik kepada pelanggan bahwa sedang ketika terjadi pemadaman listrik pelanggan dapat mengetahuinya.
+* Sebagai Petugas PLN, saya ingin memberi informasi pemadaman listrik kepada pelanggan sehingga ketika terjadi pemadaman listrik pelanggan dapat mengetahuinya.
 
 
 ### Use Case Diagram
+![Use Case Diagram](https://user-images.githubusercontent.com/60084059/82161698-149e7980-98c9-11ea-88ad-e7cf3cb73e81.png)
 
 ### Use Case Description
 
@@ -85,13 +86,10 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang mem
 |Postcondition |-|
 
 
-
 ### Activity Diagram
 
 * Kelola Alat Listrik
-
 ![RPL -Setting](https://user-images.githubusercontent.com/60084059/82143232-93b19480-986c-11ea-949e-f2a500effb0e.png)
-
 
 * Info Pemadaman
 ![LKP 4  RPL -INFO PEMADAMAN BY PENGGUNA](https://user-images.githubusercontent.com/60084059/82159857-912a5b80-98bb-11ea-96c5-6d7e619e57cd.png)
@@ -100,6 +98,7 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang mem
 ![RPL -ELIS](https://user-images.githubusercontent.com/60084059/82159848-88d22080-98bb-11ea-937d-b416af68e8a3.png)
 
 ### Gantt Chart
+![team gantt](https://user-images.githubusercontent.com/60084059/82161818-4a902d80-98ca-11ea-8df5-2c4ca011acf1.png)
 
 ### ERD
 ![LKP 4  RPL -ERD](https://user-images.githubusercontent.com/60084059/82159862-9a1b2d00-98bb-11ea-8ae9-43cb791b0828.png)
