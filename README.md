@@ -70,11 +70,19 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang mem
 |------------------------ |----------------------- |
 | Actor                   |Petugas PLN|
 |Deskripsi                | Petugas menambahkan informasi pada aplikasi tentang pemadaman yang akan dilakukan di daerah tertentu.|
-| Successful Compilation  | 1. User bisa melihat info pemadaman. 2.Informasi daerah ditampilkan pada aplikasi.|
-|Alternatif | 1. Muncul notifikasi “ Gagal memasukan data”  2.Petugas PLN mengubah waktu dan hari dari data yang telah diinputkan.|
+| Successful Compilation  | 1) User bisa melihat info pemadaman. 2)Informasi daerah ditampilkan pada aplikasi.|
+|Alternatif | 1) Muncul notifikasi “ Gagal memasukan data”  2)Petugas PLN mengubah waktu dan hari dari data yang telah diinputkan.|
 |Precondition | Kegiatan tidak bisa dilakukan jika petugas belum log-in menggunakan akun yang telah diverifikasi.|
 |Postcondition |-|
 
+| Use Case 3              |Kalkulasi Penggunaan Listrik|
+|------------------------ |----------------------- |
+| Actor                   |Petugas PLN & User|
+|Deskripsi                | User bisa mengkalkulasi penggunaan listrik|
+| Successful Compilation  | 1) User bisa melihat kalkulasi tagihan listrik yang telah digunakan. 2) [Optional] User bisa melihat notifikasi jika tagihan listrik sudah melewati batas tertentu.|
+|Alternatif | Muncul notifikasi ”Maaf anda tidak memenuhi syarat hardware yang ditentukan”|
+|Precondition | Petugas menginputkan data tentang tagihan listrik per Kwh|
+|Postcondition |-|
 
 
 
@@ -86,12 +94,16 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang mem
 
 
 * Info Pemadaman
-![RPL -INFO PEMADAMAN BY PENGGUNA](https://user-images.githubusercontent.com/60084059/82143249-a926be80-986c-11ea-822a-4d0b9c284c2d.png)
+![LKP 4  RPL -INFO PEMADAMAN BY PENGGUNA](https://user-images.githubusercontent.com/60084059/82159857-912a5b80-98bb-11ea-96c5-6d7e619e57cd.png)
 
+* Kalkulasi Penggunaan
+![RPL -ELIS](https://user-images.githubusercontent.com/60084059/82159848-88d22080-98bb-11ea-937d-b416af68e8a3.png)
 
 ### Gantt Chart
 
 ### ERD
+![LKP 4  RPL -ERD](https://user-images.githubusercontent.com/60084059/82159862-9a1b2d00-98bb-11ea-8ae9-43cb791b0828.png)
+
 
 ### Hasil Implementasi
 
