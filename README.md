@@ -89,6 +89,7 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang mem
 ### Activity Diagram
 
 * Kelola Alat Listrik
+
 ![RPL -Setting](https://user-images.githubusercontent.com/60084059/82143232-93b19480-986c-11ea-949e-f2a500effb0e.png)
 
 * Info Pemadaman
