@@ -100,7 +100,7 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang dap
 
 * Kelola Alat Listrik
 
-![RPL -Setting](https://user-images.githubusercontent.com/60084059/82143232-93b19480-986c-11ea-949e-f2a500effb0e.png =300x200)
+![RPL -Setting](https://user-images.githubusercontent.com/60084059/82143232-93b19480-986c-11ea-949e-f2a500effb0e.png)
 
 * Info Pemadaman
 ![LKP 4  RPL -INFO PEMADAMAN BY PENGGUNA](https://user-images.githubusercontent.com/60084059/82159857-912a5b80-98bb-11ea-96c5-6d7e619e57cd.png)
@@ -118,7 +118,7 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang dap
 
 ### Hasil Implementasi
 
-![COVER](https://user-images.githubusercontent.com/60084059/82239167-90003980-9962-11ea-9361-c78e024c5965.png)
+![COVER](https://user-images.githubusercontent.com/60084059/82239167-90003980-9962-11ea-9361-c78e024c5965.png )
 
 * Sign Up
 ![SIGN UP](https://user-images.githubusercontent.com/60084059/82239181-955d8400-9962-11ea-97dd-042e1d267f3a.png)
