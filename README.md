@@ -23,16 +23,26 @@ Tujuan dibuatnya aplikasi ini untuk mengurangi perilaku pemborosan listrik serta
 
 ### Ruang Lingkup
 
-Perangkat keras yang digunakan adalah laptop 
-Dengan spesifikasi processor 
-* Intel Inside i5 
-* memori 4 GB 
-* graphic card Intel HD graphic family 
-* storage 500 GB. 
+* Perangkat keras 
+Perangkat keras yang digunakan adalah laptop dengan spesifikasi 
+  * Processor Intel Inside i5 
+  * Memori 4 GB 
+  * Graphic card Intel HD graphic family 
+  * Storage 500 GB. 
 
+* Perangkat Lunak 
+Perangkat lunak yang digunakan meluputi
+  * Framework : Android Studio
+  * Database : Firebase
+  * Mockup : Figma
+  * Manajement Development :
+    * Trello
+    * GitHub
+    * TeamGantt
+    
 ### Deskripsi Perangkat Lunak
 
-ELis adalah suatu aplikasi yang bertujuan untuk dapat membantu penggunanya dalam mengelola penggunaan listrik pada rumahnya, sehingga penggunaan listrik lebih terkonrol dan dapat mengurangi pemborosan listrik.
+ELis adalah suatu aplikasi yang bertujuan untuk dapat membantu penggunanya dalam mengelola penggunaan listrik pada rumahnya, sehingga penggunaan listrik lebih terkonrol dan dapat mengurangi perilaku pemborosan listrik.
 
 Pada aplikasi ELIS ini terdapat beberapa fitur, yaitu
 * Fitur Kelola Alat Listrik : fitur ini memungkinkan penggunanya untuk mematikan aliran listrik ke lampu dan juga stopkontak secara otomatis ataupun secara manual menggunakan aplikasi ini.
@@ -45,9 +55,9 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang dap
 
 ### User Story
 * Sebagai pengguna, sebuah aplikasi yang dapat membatu saya mengefisienkan penggunaan listrik sehingga saya tidak boros listrik.
-* Sebagai pengguna , saya ingin dapat menghidupkan/mematikan lampu dari jarak jauh sehingga tidak perlu menekan saklar lampu.
-* Sebagai pengguna, saya ingin dapat memutus atau menghubungkan aliran listrik pada peralatan listrik tanpa perlu mencabut kabel peralatan listrik dari saklar jika tidak menggunakan alat tersebut.
-* Sebagai pengguna, saya ingin dapat mengetahui pemakaian listrik rumah saya tanpa perlu melihat di meteran listrik.
+* Sebagai pengguna , saya ingin dapat menghidupkan/mematikan lampu dari jarak jauh sehingga tidak perlu menekan saklar lampu untuk menghidupkan atau mematikan lampu.
+* Sebagai pengguna, saya ingin dapat memutus atau menghubungkan aliran listrik pada peralatan listrik tanpa perlu mencabut kabel peralatan listrik dari stopkontak jika tidak menggunakan alat tersebut.
+* Sebagai pengguna, saya ingin dapat mengetahui pemakaian listrik rumah saya tanpa perlu melihatnya di meteran listrik.
 * Sebagai pengguna saya ingin mendapatkan informasi pemadaman listrik sehingga saya dapat tahu ketika listrik di rumah mati disebabkan konsleting atau sedang terjadi pemadaman listrik dari pihak PLN.
 * Sebagai Petugas PLN, saya ingin memberi informasi pemadaman listrik kepada pelanggan sehingga ketika terjadi pemadaman listrik pelanggan dapat mengetahuinya.
 
@@ -108,4 +118,47 @@ Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang dap
 
 ### Hasil Implementasi
 
-Tampilan aplikasinya
+![COVER](https://user-images.githubusercontent.com/60084059/82239167-90003980-9962-11ea-9361-c78e024c5965.png)
+
+* Sign Up
+![SIGN UP](https://user-images.githubusercontent.com/60084059/82239181-955d8400-9962-11ea-97dd-042e1d267f3a.png)
+
+* Login
+![LOGIN](https://user-images.githubusercontent.com/60084059/82239193-9989a180-9962-11ea-8209-c3bfa1afb127.png)
+
+* Lupa Password
+![Lupa Password](https://user-images.githubusercontent.com/60084059/82239226-aad2ae00-9962-11ea-8303-6071f4013349.png)
+
+![Lupa Password (contd)](https://user-images.githubusercontent.com/60084059/82239251-b0c88f00-9962-11ea-81c7-329f95998c3e.png)
+
+* Home
+![DASHBOARD](https://user-images.githubusercontent.com/60084059/82239201-9d1d2880-9962-11ea-8ce7-2d2b33b0f196.png)
+
+* Menu Kelola Perangkat
+![KELOLA](https://user-images.githubusercontent.com/60084059/82239310-c6d64f80-9962-11ea-8b13-138549309627.png)
+
+![KELOLA -_ KEL](https://user-images.githubusercontent.com/60084059/82239326-cd64c700-9962-11ea-99ea-89930428c7d5.png)
+
+![Set Waktu - ON](https://user-images.githubusercontent.com/60084059/82239365-deadd380-9962-11ea-9d74-325c63829dfe.png)
+
+
+* Informasi Kalkulasi Penggunaan Listrik
+![INFO](https://user-images.githubusercontent.com/60084059/82239544-203e7e80-9963-11ea-999c-04964f2e7140.png)
+
+![INFO (1)](https://user-images.githubusercontent.com/60084059/82239550-22084200-9963-11ea-9ee3-cec97903be0b.png)
+
+* Akun
+![AKUN](https://user-images.githubusercontent.com/60084059/82239417-eec5b300-9962-11ea-9714-f48847a9c569.png)
+
+* Edit Profil
+
+![Edit Profil](https://user-images.githubusercontent.com/60084059/82239447-f5542a80-9962-11ea-8773-d0a57271e81d.png)
+
+![Edit Profil (1)](https://user-images.githubusercontent.com/60084059/82239531-1c126100-9963-11ea-8bce-acece263c8ec.png)
+
+
+
+
+
+
+
