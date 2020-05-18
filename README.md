@@ -41,7 +41,7 @@ Pada aplikasi ELIS ini terdapat beberapa fitur, yaitu
 
 ### Analisis User
 
-Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang memberi kemudahan untuk membantu mengelola penggunaan listrik sehari-hari agar lebih terkontrol sehingga  dapat mengurangi pemborosan listrik.
+Aplikasi ini ditujukan untuk masyarakat yang membutuhkan suatu aplikasi yang dapat memberi kemudahan untuk membantu mengelola penggunaan listrik sehari-hari agar lebih terkontrol sehingga dapat mengurangi  pemborosan listrik.
 
 ### User Story
 * Sebagai pengguna, sebuah aplikasi yang dapat membatu saya mengefisienkan penggunaan listrik sehingga saya tidak boros listrik.
